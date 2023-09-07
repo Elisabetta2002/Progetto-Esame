@@ -1,0 +1,187 @@
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: white;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+    }
+
+   
+
+    .navbar a {
+        position: relative;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        justify-content:space-between;
+        right: 5%;
+        left: 5%;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .navbar a::before {
+        content:'';
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: .2s;
+
+    }
+
+    .navbar a:hover:before {
+    
+        width: 100%;
+    }
+
+    div.collage {
+        min-height: 100vh;
+       background: url(Immagini/Homepage/Collage\ Fumetti\ del\ mondo\ 1.png)no-repeat;
+       background-size: cover;
+       background-position: center; 
+    }
+  
+    p.Paragrafo {
+        margin: 5rem;
+        line-height: 1.5;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    main {
+        margin: 5rem;
+        align-items: center;
+      
+    }
+    
+    h2.fumetti {
+        margin: 0;
+    font-size: 18px;
+    text-align: center;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:40px;
+    }
+    
+    .grid .item img {
+        height: auto;
+        width: 100%;
+    }
+
+    .item {
+        border: 1px solid gray;
+        
+        
+
+    } 
+
+    p.storia {
+        margin: 10rem;
+    line-height: 1.5;
+    font-size: 22px;
+    margin-left: 3%;
+    padding-right: 30%;
+    text-align: left;
+    }
+
+
+    h1 {
+        margin-left: 3%;
+        padding-right: 30%;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+
+    p.chisiamo {
+        margin: 2rem;
+    line-height: 1.5;
+    font-size: 22px;
+    margin-left: 3%;
+    padding-right: 50%;
+    text-align: left;
+    }
+
+
+    section.barra {
+        position:relative;
+        background:rgb(0, 0, 0);
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    
+    
+    section.barra h1 {
+        padding-top: 8%;
+        padding-left: 5%;
+        padding-bottom: 2%;
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+  
+    footer.footer {
+        position:relative;
+        background:rgb(255, 255, 255);
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding-bottom:5%;
+    }
+    
+    
+    footer.footer h1 {
+        font-size: 18px;
+        color: #000000;
+    }
+
+    footer.footer p {
+        font-size: 14px;
+        color: #000000;
+        padding-right:60%;
+
+    }
+
+
+    div.container {
+        display: inline-block;
+        padding-top: 5%;
+        padding-left: 10%;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    div.cs {
+        font-size: 18px;
+        padding-top: 0;
+        padding-right: 20%;
+        text-align: right;
+        line-height: 1.5;
+        width: 100%;
+        justify-content:space-between;
+    }

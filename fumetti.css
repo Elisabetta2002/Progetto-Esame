@@ -1,0 +1,308 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: white;
+
+}
+
+.america {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #EB9B45;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+    }
+
+    .giappone {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background: #019FE6;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        z-index: 100;
+        }
+
+        .europa {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 100px;
+            background: #E60515;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            z-index: 100;
+            }
+
+   
+
+    .navbar a {
+        position: relative;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        justify-content:space-between;
+        right: 5%;
+        left: 5%;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .navbar a::before {
+        content:'';
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: .2s;
+
+    }
+
+    .navbar a:hover:before {
+    
+        width: 100%;
+    }
+
+    div.collage {
+        min-height: 100vh;
+       background: url(Immagini/Homepage/Collage\ Fumetti\ del\ mondo\ 1.png)no-repeat;
+       background-size: cover;
+       background-position: center; 
+    }
+  
+    p.Paragrafo {
+        margin: 5rem;
+        line-height: 1.5;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    main {
+        margin: 5rem;
+        align-items: center;
+      
+    }
+    
+    h2.fumetti {
+        margin: 0;
+    font-size: 18px;
+    text-align: center;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:40px;
+    }
+    
+    .grid .item img {
+        height: auto;
+        width: 100%;
+    }
+
+    .item {
+        border: 1px solid gray;
+        
+
+    } 
+
+    p.storia {
+        margin: 10rem;
+    line-height: 1.5;
+    font-size: 22px;
+    margin-left: 3%;
+    padding-right: 30%;
+    text-align: left;
+    }
+
+
+    h1 {
+        margin-left: 3%;
+        padding-right: 30%;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+
+    section.barrafg {
+        position:relative;
+        background:#019FE6;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    
+    
+    section.barrafg h1 {
+    
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    section.barrafg p {
+        font-size: 24px;
+        color: #ffffff;
+        padding-right:30%;
+
+    }
+
+
+    section.barrafg img {
+        font-size: 28px;
+        color: #ffffff;
+        padding: 5%;
+        margin-top: 1%;
+    }
+
+    div.fg {
+        display: inline-block;
+        padding-top: 5%;
+        padding-left: 5%;
+        text-align: left;
+        margin: 5rem;
+        line-height: 1.5;
+    }
+
+    section.barrafe {
+        position:relative;
+        background: #E60515;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    
+    
+    section.barrafe h1 {
+    
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    section.barrafe p {
+        font-size: 24px;
+        color: #ffffff;
+        padding-right:30%;
+
+    }
+
+
+    section.barrafe img {
+        font-size: 28px;
+        color: #ffffff;
+        padding: 5%;
+        margin-top: 1%;
+    }
+
+    div.fe {
+        display: inline-block;
+        padding-top: 5%;
+        padding-left: 5%;
+        text-align: left;
+        margin: 5rem;
+        line-height: 1.5;
+    }
+
+    section.barrafa {
+        position:relative;
+        background:#EB9B45;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    
+    
+    section.barrafa h1 {
+    
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    section.barrafa p {
+        font-size: 24px;
+        color: #ffffff;
+        padding-right:30%;
+
+    }
+
+
+    section.barrafa img {
+        font-size: 28px;
+        color: #ffffff;
+        padding: 5%;
+        margin-top: 1%;
+    }
+
+    div.fa {
+        display: inline-block;
+        padding-top: 5%;
+        padding-left: 5%;
+        text-align: left;
+        margin: 5rem;
+        line-height: 1.5;
+    }
+
+    p.citazione {
+        margin: 10%;
+        line-height: 1.5;
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    footer.footer {
+        position:relative;
+        background:rgb(255, 255, 255);
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding-bottom:5%;
+    }
+    
+    footer.footer h1 {
+
+        font-size: 18px;
+        color: #000000;
+    }
+
+    footer.footer p {
+        font-size: 14px;
+        color: #000000;
+        padding-right:60%;
+
+    }
+
+
+    div.container {
+        display: inline-block;
+        padding-top: 5%;
+        padding-left: 10%;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    div.cs {
+        font-size: 18px;
+        padding-top: 0;
+        padding-right: 20%;
+        text-align: right;
+        line-height: 1.5;
+        width: 100%;
+        justify-content:space-between;
+    }

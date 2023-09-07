@@ -1,0 +1,192 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: white;
+
+}
+
+    .giappone {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background: #019FE6;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        z-index: 100;
+        }
+
+    .navbar a {
+        position: relative;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        justify-content:space-between;
+        right: 5%;
+        left: 5%;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .navbar a::before {
+        content:'';
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: .2s;
+
+    }
+
+    .navbar a:hover:before {
+    
+        width: 100%;
+    }
+
+section.top {
+    position: relative;
+    background: #019FE6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.top h3 {
+    font-size: 24px;
+    color: #fff;
+}
+section.top h1 {
+    font-size: 24px;
+    color: #fff;
+}
+section.top h2 {
+    font-size: 24px;
+    color: #fff;
+}
+section.top img {
+    padding: 5%;
+    margin-top: 1%;
+}
+div.titolo {
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin: 5rem;
+    line-height: 1.5;
+}
+p.citazione {
+    margin: 10rem;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-left: 10%;
+    padding-right: 30%;
+    text-align: left;
+}
+p.paragrafo {
+    margin: 10rem;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-left: 10%;
+    padding-right: 30%;
+    text-align: left;
+}
+h4.capo {
+    margin: 10rem;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-left: 10%;
+    padding-right: 30%;
+    text-align: left;
+}
+p.info {
+    margin: 10rem;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-left: 10%;
+    padding-right: 30%;
+    text-align: left;
+}
+.griglia {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.griglia .item img {
+    height: auto;
+    width: 100%;
+}
+div.artista {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.artista h5 {
+    color: #000000;
+    font-size: 24px;
+}
+div.artista p {
+    font-size: 22px;
+    color: #000000;
+    padding-right: 30%;
+}
+div.bio {
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 5%;
+    text-align: left;
+    margin: 5rem;
+    line-height: 1.5;
+}
+
+footer.footer {
+    position:relative;
+    background:rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom:5%;
+}
+    
+footer.footer h1 {
+
+    font-size: 18px;
+    color: #000000;
+}
+
+footer.footer p {
+    font-size: 14px;
+    color: #000000;
+    padding-right:60%;
+
+}
+
+
+div.container {
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom:5% ;
+    text-align: left;
+    line-height: 1.5;
+}
+
+div.cs {
+    font-size: 18px;
+    padding-top: 0;
+    padding-right: 20%;
+    padding-bottom:15% ;
+    text-align: right;
+    line-height: 1.5;
+    width: 100%;
+    justify-content:space-between;
+}
