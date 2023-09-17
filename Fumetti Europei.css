@@ -277,7 +277,7 @@ p.info {
 .diabolik {
     padding-top: 5%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     gap: 5px;
     padding-left: 10%;
     padding-right: 10%;
@@ -333,12 +333,26 @@ div.bio {
     text-align: left;
     line-height: 1.5;
 }
-
+  
 footer.footer {
+    padding: 5%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
     position:relative;
     background:rgb(255, 255, 255);
     display: flex;
     justify-content:space-between;
     align-items: center;
-   padding: 10%;
+  padding: 10%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #515151;
+    font-size:medium;
+}
+
+footer a:hover {
+    color: rgb(30, 89, 238);
+    text-decoration: none;
 }

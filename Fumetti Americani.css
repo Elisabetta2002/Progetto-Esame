@@ -329,15 +329,29 @@ div.bio {
     }
 
 
- 
-footer.footer {
-    position:relative;
-    background:rgb(255, 255, 255);
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-   padding: 10%;
-}
+   
+    footer.footer {
+        padding: 5%;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
+        position:relative;
+        background:rgb(255, 255, 255);
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+      padding: 10%;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #515151;
+        font-size:medium;
+    }
+
+    footer a:hover {
+        color: rgb(30, 89, 238);
+        text-decoration: none;
+    }
 
 @media (max-width:1300px) {
     section.top h1 {
